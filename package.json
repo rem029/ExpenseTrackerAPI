@@ -1,0 +1,25 @@
+{
+	"name": "ExpenseTrackerAPI",
+	"version": "0.0.1",
+	"description": "Expense Tracker BackEnd",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"keywords": [
+		"MERN"
+	],
+	"author": "rem029",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-session": "^1.17.1",
+		"mongoose": "^5.9.25",
+		"passport": "^0.4.1",
+		"passport-local": "^1.0.0",
+		"passport-local-mongoose": "^6.0.1"
+	}
+}
